@@ -1,0 +1,52 @@
+.omigo-terms {
+    width: 346px;
+    float: right;
+}
+.omigo-terms p.submit {
+    float: right;
+}
+.omigo { width: 700px; float: left;}
+.omigo th { display: inline-block; width:130px; box-sizing: border-box; padding: 6px 10px 2px 0; }
+.omigo td { display: inline-block; box-sizing: border-box; padding: 0px 10px 2px 0; padding-right: 30px; }
+.omigo tr { display: inline-block; box-sizing: border-box;}
+/* .omigo tr.budget-class {display: block;} */
+.omigo tr th {width: 210px;}
+.longer-th-width th { width: 130px;}
+input.big_input { width: 320px;}
+.capital_letters { text-transform: uppercase; }
+.bg-gray { background: #eeeeee;}
+.float-right { float: right;}
+#monthly_budget { text-align: right;}
+
+.donors { min-width: 70%; background: #fff; border-collapse: collapse; font-family: "Open Sans", Helvetica, Arial, sans-serif;}
+.donors th { color: #2aad2a}
+.donors th, .donors td {
+    text-align: left;
+    border: 1px #ccc solid;
+    padding: 2px 4px;
+}
+.letter-section {
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    background: rgba(255,255,255,0.8);
+    max-width: 620px;
+    margin-top: 12px;
+}
+.letter-section tr td:first-child {
+    padding-right: 12px;
+}
+.letter-section .omigo-email-text tr td:first-child {
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+.letter-section textarea {
+    width: 400px;
+    height: 90px;
+}
+.tos-wrapper {
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: visible;
+}

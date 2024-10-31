@@ -1,0 +1,47 @@
+[
+    {
+        "name": "eusonlito/captcha",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/eusonlito/captcha.git",
+            "reference": "f16a813494eaf87a6c2f7473a72e3423f4cdaf67"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/eusonlito/captcha/zipball/f16a813494eaf87a6c2f7473a72e3423f4cdaf67",
+            "reference": "f16a813494eaf87a6c2f7473a72e3423f4cdaf67",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2016-12-22T18:23:00+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Eusonlito\\Captcha\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Lito",
+                "email": "lito@eordes.com"
+            }
+        ],
+        "description": "A simple package to generate and check captchas",
+        "keywords": [
+            "captcha",
+            "laravel"
+        ]
+    }
+]
